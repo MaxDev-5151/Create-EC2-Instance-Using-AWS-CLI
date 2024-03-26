@@ -23,6 +23,11 @@
 
 **5. For creating EBS Volume type: `aws ec2 create-volume --availability-zone us-east-1a --size 10`**
 
+- `aws ec2 create-volume`: Specifies the service(EC2)
+- `--availability-zone us-east-1a`: This defines the Availability zone
+- `--size 10`: This sets the volume size in GiB
+
+
 ![Image](./Images/EBS-AWS-CLI/6.png)
 
 **6. Go to aws volume page, we can see the Created Volume**
