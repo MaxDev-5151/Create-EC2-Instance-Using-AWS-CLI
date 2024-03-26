@@ -36,10 +36,11 @@ df`**
 
 ![Image](./Images/EBS-AWS-CLI/8.png)
 
-**8. For checking whichever volumes attached to the particular instance then type: `aws ec2 describe-volumes`**
-
-![Image](./Images/EBS-AWS-CLI/9.png)
-
-**9. Go to instances page and check our volume is attached to the particular instance**
+**8. Go to instances page and check our volume is attached to the particular instance**
 
 ![Image](./Images/EBS-AWS-CLI/10.png)
+
+
+**9. For checking whichever volumes attached to the particular instance then type: `aws ec2 describe-volumes`**
+
+![Image](./Images/EBS-AWS-CLI/9.png)
