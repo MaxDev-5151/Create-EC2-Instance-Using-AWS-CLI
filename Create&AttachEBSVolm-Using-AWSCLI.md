@@ -46,6 +46,6 @@ df`**
 ![Image](./Images/EBS-AWS-CLI/10.png)
 
 
-**9. For checking whichever volumes attached to the particular instance then type: `aws ec2 describe-volumes`**
+**9. For checking whichever volumes attached to the particular instance for that type: `aws ec2 describe-volumes`**
 
 ![Image](./Images/EBS-AWS-CLI/9.png)
