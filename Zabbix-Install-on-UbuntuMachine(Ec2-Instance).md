@@ -60,7 +60,25 @@ quit;
 
 `sudo v1 /etc/zabbix_server.conf ---- Set the "DBPassword=zabbix"`
 
+**16. Setup the time zone in the apache configuration file**
 
+`sudo vi /etc/zabbix/apache.conf ---- Set php_value`
+
+**17. Restart the server and the agent**
+
+`sudo systemctl restart zabbix-server zabbix-agent apache2`
+
+**18. Enable the server and the agent**
+
+`sudo systemctl enable zabbix-server zabbix-agent apache2`
+
+**19. Allow the rules if  you are using Cloud (in my case AWS).**
+
+`Edit the security group and add 10050 and 10051 rules`
+
+**20. Access the application using the Ip address**
+
+`Access the app ---ip-address/zabbix`
 
 
 
