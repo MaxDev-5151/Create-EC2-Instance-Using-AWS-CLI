@@ -17,13 +17,13 @@
 - select Lifecycle rule action: Move current versions of objects between storage classes
 - In Transition current versions of objects between storage classes Add transition like: 
   Standard-IA = 30days
-  Glacier Instant Retriveal = 60days
+  Glacier Instant Retrieval = 60days
   Glacier Deep Archive = 150 days
 - After that Review transition and expiration action and click on`Create rule` button.
 
 ![Image](./Images/S3-Lifecycle-Management/last.png)
 
-**4. We can see in Lifecycle Configuration page `Lifecycle rule` is create sucessfully**
+**4. We can see in Lifecycle Configuration page `Lifecycle rule` is create successfully**
 
 ![Image](./Images/S3-Lifecycle-Management/4.png)
 
