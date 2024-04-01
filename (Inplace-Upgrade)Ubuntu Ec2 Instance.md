@@ -23,3 +23,28 @@
 **5. After Update successfully run the `sudo apt upgrade` command**
 
 ![Image](./images/Inplace-upgrade/7.png)
+
+**6. Reboot the server(Go to Instance page select our EC2 Instance then in Instance state drop menu select `Reboot instance`)**
+
+![Image](./images/Inplace-upgrade/8.png)
+![Image](./images/Inplace-upgrade/9.png)
+![Image](./images/Inplace-upgrade/10.png)
+
+**7. The `do-release-upgrade` command perform checks to verify that the system is ready to update** 
+-	Review the changes, and the enter y
+-	Package configuration press enter
+-	Configuring openssh -server press enter
+-	Then select the `Install the package maintainer’s` and press enter
+-	Then In the prompt to reboot the system enter `y`
+
+![Image](./images/Inplace-upgrade/11.png)
+![Image](./images/Inplace-upgrade/12.png)
+![Image](./images/Inplace-upgrade/13.png)
+
+**8. In the prompt to reboot the system enter `y` (The upgrade isn’t complete until we reboot the instance)**
+
+![Image](./images/Inplace-upgrade/14.png)
+
+**9. To verify the LTS Ubuntu version, run the `cat /etc/os-release` command(We can see that the version of Ubuntu is `22.04`)**
+
+![Image](./images/Inplace-upgrade/15.png)
