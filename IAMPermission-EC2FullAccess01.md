@@ -55,3 +55,19 @@
 
 ![Image](./Images/IAM/13a.png)
 ![Image](./Images/IAM/13.png)
+
+**Permissions**
+- Launch new EC2 Instance across various instance type, Amazon Machine Image(AMIs) and configurations
+- Stop, Start, Reboot and terminate running instance
+- Create and manage Auto Scaling groups for automatically scaling your EC2 instances based on demand.
+- Modify instance security groups, controlling inbound and outbound network traffic 
+- Attach and detach Elastic Block Storage (EBS) volumes to instances for persistent storage 
+- Allocate and associate Elastic IP addresses for static IP assignment to instances
+- Configure instance metadata & user data scripts for customization during launch.
+- Connect to running instances via SSH or Remote Desktop Protocol(RDP)
+- View instance logs and console input 
+- Terminate remote desktop connections to instances
+- Create and manage Amazon Machine Image(AMIs) from existing instance.
+- Request and manage spot Fleet requests to launch large number of EC2 instances cost effective.
+- Generating EC2 full access is highly powerful and should be done with utmost caution. Its generally recommended to use the principle of least privilege and grant only the specific permissions required for a user or roles tasks.
+- Regular review and audit IAM policies to ensure they are aligned with current needs and don't grant unnecessary access
