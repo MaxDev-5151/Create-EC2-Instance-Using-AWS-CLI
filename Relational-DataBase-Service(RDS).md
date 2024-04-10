@@ -16,6 +16,10 @@
 
 ![Image](./Images/RDS/1.png)
 
+- In Connectivity & security tab `Endpoint` and `Port` are important things
+
+![Image](./Images/RDS/2.png)
+
 **5. database is successfully created now status of database is `Backing-up` after few min status change as `Available`, After that click on `DB identifier`**
 
 ![Image](./Images/RDS/5.png)
@@ -33,6 +37,36 @@
 
 ![Image](./Images/RDS/9.png)
 
-**8. 
+**8. Go to security group page> `Inbound rules` tab and click on `Edit Inbound rule`**
 
 ![Image](./Images/RDS/10.png)
+
+**9. In Edit inbound rules page**
+- Add rule: MYSQL/Aurora: 3306: Anywhere(IPv4)
+- Add rule: MYSQL/Aurora: 3306: Anywhere(IPv6)
+- after that click on `Save rule`
+
+![Image](./Images/RDS/11.png)
+![Image](./Images/RDS/12.png)
+
+**10. Go to terminal and type command `mysql -h nehaldb-01-mysql.cngc6kk0s2u3.us-east-1.rds.amazonaws.com -u admin -p`**
+- In above command: `nehaldb-01-mysql.cngc6kk0s2u3.us-east-1.rds.amazonaws.com` is host url
+- After that enter password, now we connect with database
+
+![Image](./Images/RDS/13.png)
+
+**11. Run some sql commands**
+- `show databases;`
+- `CREATE database testing;`
+
+
+![Image](./Images/RDS/14.png)
+
+- `show databases;` here we can see our database created(testing)
+
+![Image](./Images/RDS/15.png)
+
+**12. For Exit from mysql type: `exit`**
+
+![Image](./Images/RDS/16.png)
+
